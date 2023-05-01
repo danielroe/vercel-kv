@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "npm:nuxt3@3.4.3-28044631.f73bb1de"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.20.4",
+    "@vercel/kv": "^0.1.1"
+  }
+}
